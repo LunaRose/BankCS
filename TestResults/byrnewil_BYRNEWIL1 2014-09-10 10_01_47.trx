@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ef0d8e7-fcb4-4475-bc34-6dc667e50af8" name="byrnewil@BYRNEWIL1 2014-09-10 10:01:47" runUser="EMEA\byrnewil" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="26b719a4-ce89-4f9b-9f14-578e2c58d769">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestResults\byrnewil_BYRNEWIL1 2014-09-10 10_01_47">
+      <DeploymentItem filename="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\bin\Debug\BankCS.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-09-10T10:01:47.6364594+01:00" queuing="2014-09-10T10:01:48.1265084+01:00" start="2014-09-10T10:01:48.1495107+01:00" finish="2014-09-10T10:01:48.5755533+01:00" />
+  <TestDefinitions>
+    <UnitTest name="DebitTest" storage="c:\users\byrnewil\documents\visual studio 2008\projects\bankcs\testproject1\bin\debug\testproject1.dll" id="26bfaab1-75c4-8f62-7229-929a1e9a0aee">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b9dbd4bf-d645-4592-924a-80812830e060" />
+      <TestMethod codeBase="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.BankAccountTest, TestProject1" name="DebitTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" executionId="b9dbd4bf-d645-4592-924a-80812830e060" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9dbd4bf-d645-4592-924a-80812830e060" testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" testName="DebitTest" computerName="BYRNEWIL1" duration="00:00:00.0476930" startTime="2014-09-10T10:01:48.1505108+01:00" endTime="2014-09-10T10:01:48.5635521+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestProject1.BankAccountTest.DebitTest() in C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\BankAccountTest.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

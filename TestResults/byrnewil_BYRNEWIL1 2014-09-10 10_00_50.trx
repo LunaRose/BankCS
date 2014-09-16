@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5aed0f40-90fa-419f-ad06-df83a3f02da1" name="byrnewil@BYRNEWIL1 2014-09-10 10:00:50" runUser="EMEA\byrnewil" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="26b719a4-ce89-4f9b-9f14-578e2c58d769">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestResults\byrnewil_BYRNEWIL1 2014-09-10 10_00_50">
+      <DeploymentItem filename="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\bin\Debug\BankCS.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BYRNEWIL1" outcome="Warning" timestamp="2014-09-10T10:00:51.6238587+01:00">
+        <Text>The storage 'c:\users\byrnewil\documents\visual studio 2008\projects\bankcs\testproject1\bin\debug\testproject1.dll' for test 'DebitTest' with id {26bfaab1-75c4-8f62-7229-929a1e9a0aee} cannot be found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2014-09-10T10:00:50.9477911+01:00" queuing="2014-09-10T10:00:52.2909254+01:00" start="2014-09-10T10:00:52.4819445+01:00" finish="2014-09-10T10:00:52.6929656+01:00" />
+  <TestDefinitions>
+    <UnitTest name="DebitTest" storage="c:\users\byrnewil\documents\visual studio 2008\projects\bankcs\testproject1\bin\debug\testproject1.dll" id="26bfaab1-75c4-8f62-7229-929a1e9a0aee">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7a6bc42-afd6-4012-847f-88202611bdae" />
+      <TestMethod codeBase="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.BankAccountTest, TestProject1" name="DebitTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" executionId="d7a6bc42-afd6-4012-847f-88202611bdae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d7a6bc42-afd6-4012-847f-88202611bdae" testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" testName="DebitTest" computerName="BYRNEWIL1" duration="00:00:00" startTime="2014-09-10T10:00:52.5789542+01:00" endTime="2014-09-10T10:00:52.6619625+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Error" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>The test assembly 'C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestResults\byrnewil_BYRNEWIL1 2014-09-10 10_00_50\Out\TestProject1.dll' cannot be loaded. Error details: Could not find file 'C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestResults\byrnewil_BYRNEWIL1 2014-09-10 10_00_50\Out\TestProject1.dll'.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

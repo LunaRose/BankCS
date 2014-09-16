@@ -1,0 +1,9 @@
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\BankCS.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\BankCS.pdb
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\BankCS_Accessor.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\BankCS_Accessor.pdb

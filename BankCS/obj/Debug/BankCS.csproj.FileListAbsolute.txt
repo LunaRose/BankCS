@@ -1,0 +1,5 @@
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\bin\Debug\BankCS.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\bin\Debug\BankCS.pdb
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\obj\Debug\BankCS.dll
+C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\obj\Debug\BankCS.pdb

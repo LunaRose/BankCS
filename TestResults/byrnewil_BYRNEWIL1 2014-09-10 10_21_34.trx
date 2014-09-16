@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc19b041-3895-4bf0-96ab-ca26e15a4cf2" name="byrnewil@BYRNEWIL1 2014-09-10 10:21:34" runUser="EMEA\byrnewil" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="26b719a4-ce89-4f9b-9f14-578e2c58d769">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestResults\byrnewil_BYRNEWIL1 2014-09-10 10_21_34">
+      <DeploymentItem filename="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\BankCS\bin\Debug\BankCS.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-09-10T10:21:34.9416928+01:00" queuing="2014-09-10T10:21:36.6236928+01:00" start="2014-09-10T10:21:36.8476928+01:00" finish="2014-09-10T10:21:37.5256928+01:00" />
+  <TestDefinitions>
+    <UnitTest name="DebitTest" storage="c:\users\byrnewil\documents\visual studio 2008\projects\bankcs\testproject1\bin\debug\testproject1.dll" id="26bfaab1-75c4-8f62-7229-929a1e9a0aee">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2f2db426-9f2b-4311-b05a-77264a8fc818" />
+      <TestMethod codeBase="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.BankAccountTest, TestProject1" name="DebitTest" />
+    </UnitTest>
+    <UnitTest name="FreezeAccountTest" storage="c:\users\byrnewil\documents\visual studio 2008\projects\bankcs\testproject1\bin\debug\testproject1.dll" id="649e83c6-cea5-4b0a-89e1-fbdafde6de08">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BankCS.dll" />
+      </DeploymentItems>
+      <Execution id="31a45f57-c750-46a3-8284-d3515ebfe2a4" />
+      <TestMethod codeBase="C:\Users\byrnewil\Documents\Visual Studio 2008\Projects\BankCS\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.BankAccountTest, TestProject1" name="FreezeAccountTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" executionId="2f2db426-9f2b-4311-b05a-77264a8fc818" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="649e83c6-cea5-4b0a-89e1-fbdafde6de08" executionId="31a45f57-c750-46a3-8284-d3515ebfe2a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2f2db426-9f2b-4311-b05a-77264a8fc818" testId="26bfaab1-75c4-8f62-7229-929a1e9a0aee" testName="DebitTest" computerName="BYRNEWIL1" duration="00:00:00.1352162" startTime="2014-09-10T10:21:36.8526928+01:00" endTime="2014-09-10T10:21:37.2306928+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31a45f57-c750-46a3-8284-d3515ebfe2a4" testId="649e83c6-cea5-4b0a-89e1-fbdafde6de08" testName="FreezeAccountTest" computerName="BYRNEWIL1" duration="00:00:00.2831578" startTime="2014-09-10T10:21:37.2306928+01:00" endTime="2014-09-10T10:21:37.5166928+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
